@@ -1,84 +1,255 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Kirsten Darling</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <header>
-            <div class="full-width">
-                <div class="half-width">
-                    <h1>Kirsten Darling</h1>
-                </div>
-                <div class="half-width">
-                    <nav>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <h2><span>Hi,</span> I'm a developer that works with HTML, CSS, and Swift.</h2>
-            </div>
-        </header>
+<html class="no-js" lang="">
 
-        <main>
-            <section id="about">
-                <div class="full-width">
-                    <h2>About</h2>
-                    <div class="half-width">
-                        <p>I live in Denver, Colorado with my partner, <a href="http://tattoosbydustin.com target="_blank"">tattoo artist Dustin Jenness</a>, and our big dog Lucy. An interest in HTML and CSS led me to find <a href="https://lambdaschool.com target="_blank"">Lambda School.</a> I am currently a <a href="https://lambdaschool.com" target="_blank">Lambda School</a> student working in iOS development.</p>
-                    </div>
-                    <div class="half-width">
-                        <p>Before my introduction to the tech world, I spent a decade managing several different multi-million dolar retail stores across the United States. I absolutely love any project that allows me to integrate my knowledge of the business world and customer service with my new found passion for coding.</p>
-                    </div>
-                </div>
-            </section>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Kirsten Darling</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            <section id="work">
-                <div class="full-width">
-                    <div class="third-width">
-                        <img src="img/icon-html.png" alt="HTML icon" />
-                        <h3>Hand-Coded HTML5</h3>
-                        <p>My focus is writing clean, well formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
-                    </div>
-                    <div class="third-width">
-                        <img src="img/icon-css.png" alt="CSS icon" />
-                        <h3>Well-Organzied CSS</h3>
-                        <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
-                    </div>
-                    <div class="third-width">
-                        <img src="img/icon-pencil.png" alt="Pencil icon" />
-                        <h3>Ease Converting Designs into Code</h3>
-                        <p>You can trust me to take a designer's PSD and quickly &amp; accurately convert it into a webpage that is pixel-perfect match.</p>
-                    </div>
-                </div>
-            </section>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <!-- FontAwesome CDN version 5.5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/main.css">
 
-            <footer id="contact">
-                <div class="full-width">
-                    <div class="half-width">
-                        <img src="img/contact.png" id="contact-img" alt="my contact image" />
-                    </div>
-                    <div class="half-width" id="contact-info">
-                        <h2>Like what you see?</h2>
-                        <h3 id="email-header">Let's meet for a cup of coffee.</h3>
-                        <a href="mrs.kirstendarling@gmail.com"><img src="img/icon-envelope.png" id="envelope" alt="envelope icon" />hi [@] gmail.com</a>
-                        <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
-                        <ul>
-                            <li><a href="https://twitter.com/kdarling93"><img src="img/icon-twitter.png" alt="twitter icon" /></a></li>
-                            <li><a href="https://www.instagram.com/darling_kirsten/"><img src="img/icon-instagram.png" alt="instagram icon" /></a></li>
-                            <li><a href="https://www.linkedin.com/in/kirstenbachert/"><img src="img/icon-linkedin.png" alt="linkedin icon" /></a></li>
-                            <li><a href="https://github.com/KirstenDarling"><img src="img/icon-github.png" alt="github icon" /></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </main>
-    </body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGQZL2V8Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FXGQZL2V8Q');
+  </script>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+    <div class="content-wrapper">
+      <figure>
+        <a href="#">
+          <p id="logo">Kirsten Darling</p>
+        </a>
+      </figure>
+      <div class="header-divider"></div>
+      <nav>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero-area">
+      <div class="content-wrapper">
+        <h1>Hi, my name is Kirsten and I like to build websites.</h1>
+      </div>
+    </section>
+
+    <aside>
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Do you need a company website or a portfolio to show your work?</h3>
+          <p>
+            I'm a web developer who builds personalized websites from scratch. I specialize in responsive web
+            development. I can help you make a site that looks astonishing on a laptop, tablet, and smartphone.
+          </p>
+        </div>
+        <div class="form">
+          <h3>Do you have a website, but you're unhappy with how it looks?</h3>
+          <p>
+            Nowadays, over 50% of
+            websites are viewed on a smartphone. If you already have a website but it looks a little awkward when you
+            visit it on
+            a cell phone, I can help you fix that!
+          </p>
+        </div>
+      </div> <!-- aside content wrapper ends -->
+    </aside>
+
+    <section class="portfolio" id="portfolio">
+      <div class="content-wrapper">
+        <h2>Check out my projects below.</h2>
+        <div class="portfolio-items">
+
+          <figure>
+            <a href="https://kirstendarling.github.io/unplugged-retreat/" target="_blank"><img src="img/unplugged-screenshot.png"
+                alt="Unplugged Sample Website" class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/unplugged-retreat/" target="_blank">
+              <h3>Unplugged Retreat</h3>
+            </a>
+            <p class="portfolio-item-description">
+              This was a class project for my Responsive Web Development class.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="https://kirstendarling.github.io/rogue-pickings-responsive/" target="_blank"><img
+                src="img/roguepickings-screenshot.png" alt="Unplugged Sample Website"
+                class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/rogue-pickings-responsive/" target="_blank">
+              <h3>Rogue Pickings</h3>
+            </a>
+            <p class="portfolio-item-description">
+              This was another class project for my Responsive Web Development class.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="https://kirstendarling.github.io/105-coding_resources/" target="_blank"><img
+                src="img/codingresources-screenshot.png" alt="Unplugged Sample Website"
+                class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/105-coding_resources/" target="_blank">
+              <h3>Coding Resources</h3>
+            </a>
+            <p class="portfolio-item-description">
+              I've made this site to share links to my favorite coding resources and websites.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="https://kirstendarling.github.io/flexbox-final-site/" target="_blank"><img
+                src="img/flexbox-screenshot.png" alt="Unplugged Sample Website" class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/flexbox-final-site/" target="_blank">
+              <h3>Basic Flexbox Site</h3>
+            </a>
+            <p class="portfolio-item-description">
+              This is the first responsive website I made. The text adjusts for different screen sizes.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="https://kirstendarling.github.io/101-bonus-recipe-challenge/" target="_blank"><img
+                src="img/recipecard-screenshot.png" alt="Unplugged Sample Website" class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/101-bonus-recipe-challenge/" target="_blank">
+              <h3>Recipe Cards</h3>
+            </a>
+            <p class="portfolio-item-description">
+              This is a static site (made for desktop view only) I made it display multiple recipes.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="https://kirstendarling.github.io/day1-registration-form/" target="_blank"><img
+                src="img/registrationform-screenshot.png" alt="Unplugged Sample Website"
+                class="portfolio-example glow" /></a>
+            <a href="https://kirstendarling.github.io/day1-registration-form/" target="_blank">
+              <h3>Registration Form</h3>
+            </a>
+            <p class="portfolio-item-description">
+              I had fun building this registration form. It's interactive when you hover over the submit button.
+            </p>
+          </figure>
+
+          <figure>
+            <a href="certificates/index.html" target="_blank"><img
+                src="img/css-big-thumbnail.png" alt="css certificate" class="portfolio-example glow" /></a>
+            <a href="certificates/index.html" target="_blank">
+              <h3>View Certifications</h3>
+            </a>
+            <p class="portfolio-item-description">
+              I update this section often as I complete classes and gain new skills.
+            </p>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="about">
+      <div class="content-wrapper">
+        <article>
+          <figure class="bio-image">
+            <img src="../img/bio-image2.JPG" alt="Woman smiling" />
+          </figure>
+          <div>
+            <h3>About Me</h3>
+            <p>
+              My name is Kirsten Darling. I'm a <a href="https://www.skillcrush.com">Skillcrush Bootcamp</a> student. I
+              work with HTML5, CSS3, Sass,
+              and JavaScript. I spent 10 years managing retail stores in Missouri, Texas, Oklahoma, and
+              Colorado before I found my passion: frontend web development. I enjoy mixing my retail/customer
+              service skills with my tech skills on the websites I build. I absolutely love working with all
+              business owners to help create their first website or make their existing website responsive (made
+              for desktop, tablet, and mobile devices).
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main> <!-- main wrapper -->
+
+  <footer>
+    <div class="content-wrapper">
+      <div class="footer-content">
+        <div class="contact" id="contact">
+          <h4>Contact</h4>
+          <address>
+            <p>
+              417-622-2352<br>
+              <a href="mailto: mrs.kirstendarling@gmail.com" id="email">mrs.kirstendarling@gmail.com</a>
+            </p>
+          </address>
+        </div>
+        <div class="social">
+          <h4>Social</h4>
+          <div class="social-icons">
+            <p class="glow">
+              <a href="https://www.github.com/KirstenDarling/" target="_blank"><i class="fab fa-github"></i></a>
+            </p>
+            <p class="glow">
+              <a href="https://linkedin.com/in/kirstendarling" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </p>
+            <p class="glow">
+              <a href="https://www.twitter.com/kdarling93/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </p>
+          </div>
+        </div>
+      </div> <!-- footer content ends -->
+    </div>
+    <!--footer content-wrapper ends-->
+    <div class="copyright">
+      <p>2021 | Kirsten Darling</p>
+    </div>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGQZL2V8Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FXGQZL2V8Q');
+  </script>
+</body>
+
 </html>
