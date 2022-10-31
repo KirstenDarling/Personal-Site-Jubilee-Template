@@ -1,6 +1,6 @@
 # Personal Site - Jubilee Template
 
-### View the [live project here.](https://kirstendarling.github.io/personal-site/)
+### View the [live project here.](https://kirstendarling.github.io/Personal-Site-Jubilee-Template/)
 
 ### Screenshot
 
